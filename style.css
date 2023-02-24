@@ -15,9 +15,10 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 body{
-    font-family: 'Rubik', sans-serif;
 	font-family: 'Playfair Display', serif;
 	font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
 	line-height: 1.6;
 
     width: 100%;
@@ -29,7 +30,8 @@ body{
     background-image: url('image/header/BG.png');
     background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+
 }
 
 .menu{
@@ -79,4 +81,109 @@ body{
 .menu__btn:hover{
     background: #FF7757;
     border-radius: 12px;
+}
+.hero{
+    padding-bottom: 270px;
+}
+
+.hero__title{
+    padding: 142px 0 170px 32px;
+}
+
+.hero__h1{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 84px;
+    line-height: 112px;
+
+    margin-bottom: 16px;
+    text-align: left;
+    width: 75%;
+    color: #FFFFFF;
+}
+
+.hero__text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.hero__book{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    background: #FFFFFF;
+    padding: 0px 0px 0 32px;
+    gap: 100px;
+}
+
+.hero__reserve{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 100px 0 32px;
+
+    background: #FFFFFF;
+    gap: 40px;
+}
+
+.reserve__title{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    color: #767E86;
+}
+
+.reserve__input{
+    font-size: 18px;
+    line-height: 24px;
+   
+    color: #172432;
+    padding: 0px 0px 10px;
+
+    width: 195.75px;
+    height: 34px;
+    border-bottom: 1px solid #000000;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+.hero__booknow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 60px 20px;
+    gap: 12px;  
+
+    background: #FF7757;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+
+.book__text{
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #FFFFFF;
 }
