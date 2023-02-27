@@ -187,3 +187,88 @@ input[type=date]:focus::-webkit-datetime-edit {
 
     color: #FFFFFF;
 }
+
+/* Destinations */
+.section{
+    display: flex;
+    justify-content: space-between;    
+    align-items: flex-end;
+    padding: 0px;
+    gap: 32px;
+
+    padding: 140px 32px 100px;
+}
+
+.section__h3{
+    font-size: 64px;
+    line-height: 85px;
+    padding-bottom: 20px;
+
+    color: #172432;
+}
+
+.section__text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #767E86;
+}
+
+.section__btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.section__shev{
+    padding: 20px 28px;
+    background: #172432;
+    border-radius: 12px;
+
+    cursor: pointer;
+}
+.section__shev:hover{
+    background: #FF7757;
+}
+
+
+.destinations__content{
+    display: flex;
+    flex-direction: row;
+
+    padding: 0 32px 140px;
+    gap: 32px;
+}
+
+.destinations__items{
+    position: relative;
+}
+
+.destinations__textblock{
+    position: absolute;
+    bottom: 40px;
+    left: 24px;
+    z-index: 1;
+}
+
+.destinations__city{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 37px;
+
+    padding-bottom: 17px;
+    color: #FFFFFF;
+}
+
+.destinations__location{ 
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    padding-left: 17px;
+    color: #FFFFFF;
+}
