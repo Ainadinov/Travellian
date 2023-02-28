@@ -272,3 +272,120 @@ input[type=date]:focus::-webkit-datetime-edit {
     padding-left: 17px;
     color: #FFFFFF;
 }
+
+/* Action */
+
+.section__title-offer{
+    text-align: end;
+}
+
+.offer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 32px 140px;
+    gap: 32px;
+
+}
+
+.offer__blog{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 437.33px;
+    height: 629px;
+}
+
+.offer__textblog{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 24px;
+    gap: 24px;
+
+    width: 437.33px;
+    height: 343px;
+
+    background: #FFF8F1;
+    border-radius: 0px 0px 26px 26px;
+}
+
+.offer__city{
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+    line-height: 35px;
+    padding-bottom: 8px;
+
+    color: #767E86;
+}
+
+.offer__text{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #172432;
+}
+
+.offer__details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 389.33px;
+    height: 64px;
+}
+
+.offer__pr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+
+.offer__from{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #767E86;
+}
+
+.offer__price{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FF7757;
+}
+
+.offer__btn{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    padding: 20px 40px;
+
+    background: #172432;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.offer__btn:hover{
+    background-color: #FF7757;
+}
