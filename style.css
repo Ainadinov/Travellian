@@ -389,3 +389,58 @@ input[type=date]:focus::-webkit-datetime-edit {
 .offer__btn:hover{
     background-color: #FF7757;
 }
+
+/* Travel */
+
+.travel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 32px 140px;
+    gap: 32px;
+}
+
+.travel__content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+}
+
+.travel__title{
+    width: 50%;
+    font-size: 54px;
+    line-height: 72px;
+
+    color: #172432;
+}
+
+.travel__text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    line-height: 52px;
+
+    color: #172432;
+}
+
+.travel__btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 52px;
+
+    cursor: pointer;
+}
+
+.travel__read-more{
+    color: #FF7757;
+}
