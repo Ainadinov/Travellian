@@ -462,3 +462,136 @@ input[type=date]:focus::-webkit-datetime-edit {
 .gallery__img:hover{
     transform: translate3d(0, -75px, 0);
 }
+
+/* Experiences */
+.client{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px 32px 300px;
+    gap: 32px;
+}
+
+.client__items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px 40px 40px;
+    gap: 20px;
+    isolation: isolate;
+
+    position: relative;
+    width: 562px;
+    height: 355px;
+
+    background: #F5F6F7;
+    border-radius: 12px;
+}
+
+.client__ava{
+    position: absolute;
+    left: 40px;
+    top: -65px;
+    z-index: 1;
+}
+
+.client__text{   
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+ 
+    color: #767E86;
+}
+
+.client__name{
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 4px;
+
+    color: #767E86;
+}
+
+.client__prof{
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #767E86;
+}
+
+
+/* Newsletter */
+
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 60px 80px;
+    margin: 0 89px;
+    gap: 100px;
+
+    position: absolute;
+    left: 45px;
+    top: 6785px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 26px;
+}
+
+.newsletter__title{
+    font-size: 64px;
+    line-height: 85px;
+
+    color: #767E86;
+}
+
+.newsletter__frame{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding: 0px;
+    gap: 32px;
+}
+
+.newsletter__email{
+    padding: 16px 40px;
+
+    background: #FFE8D4;
+    border-radius: 12px;
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FF7757;
+}
+
+.newsletter__email::placeholder{
+    color: #FF7757;
+}
+
+.newsletter__btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+
+    background: #172432;
+    color: #FFFFFF;
+    border-radius: 12px;
+
+    cursor: pointer;
+}
+
+.newsletter__btn:hover{
+    background-color: #FF7757;
+}
+
+
+/* Footer */
+
+.footer{
+    background: #172432;
+    padding: 240px 32px 140px;
+}
