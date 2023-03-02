@@ -444,3 +444,21 @@ input[type=date]:focus::-webkit-datetime-edit {
 .travel__read-more{
     color: #FF7757;
 }
+
+/* Gallery */
+
+.gallery__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 32px 140px;
+    gap: 32px;
+}
+
+.gallery__img{
+    transition: transform .1s linear;
+}
+
+.gallery__img:hover{
+    transform: translate3d(0, -75px, 0);
+}
