@@ -546,6 +546,8 @@ input[type=date]:focus::-webkit-datetime-edit {
 }
 
 .newsletter__frame{
+    position: relative;
+
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -553,11 +555,33 @@ input[type=date]:focus::-webkit-datetime-edit {
     gap: 32px;
 }
 
+.newsletter__icons {
+    position: absolute;
+    right: 185px;
+    top: 30%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 25px;
+    width: 25px;
+    border: 2px solid #e74c3c;
+    border-radius: 50%;
+    line-height: 25px;
+
+    color: #e74c3c;
+    border-color: #e74c3c;
+    display: none;
+}
+
 .newsletter__email{
     padding: 16px 40px;
 
+    border: 2px solid #FFE8D4;
     background: #FFE8D4;
     border-radius: 12px;
+    outline: none;
 
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
