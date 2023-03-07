@@ -26,3 +26,45 @@ email.addEventListener("keyup", function(e){
         icon1.style.display = "none"
     }
 });
+
+
+// Slider
+
+const destinations = document.querySelector(".destinations__content")
+const destinationsFirstImg = destinations.querySelectorAll("img")[0];
+const destinationsBtn = document.querySelectorAll(".destinations .section__shev")
+
+console.log(destinationsFirstImg)
+
+
+destinationsBtn.forEach(icon => {
+    icon.addEventListener("click", () => {
+        let firstImgWidth = destinationsFirstImg.clientWidth + 35 
+        if(icon.id  == "destinations__left" ){
+            destinations.scrollLeft -= firstImgWidth
+        }else{
+            destinations.scrollLeft += firstImgWidth
+        }
+        
+    })
+});
+
+
+const gallery = document.querySelector(".gallery__item")
+const galleryFirstImg = gallery.querySelectorAll("img")[0];
+const galleryBtn = document.querySelectorAll(".gallery .section__shev")
+
+console.log(galleryFirstImg)
+
+
+galleryBtn.forEach(icon => {
+    icon.addEventListener("click", () => {
+        let firstImgWidth = galleryFirstImg.clientWidth + 35 
+        if(icon.id  == "gallery__left" ){
+            gallery.scrollLeft -= firstImgWidth
+        }else{
+            gallery.scrollLeft += firstImgWidth
+        }
+        
+    })
+});

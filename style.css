@@ -237,9 +237,14 @@ input[type=date]:focus::-webkit-datetime-edit {
 .destinations__content{
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 
-    padding: 0 32px 140px;
-    gap: 32px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+
+    padding: 0 32px 140px 0;
+    margin-left: 32px;
+    gap: 35px;
 }
 
 .destinations__items{
@@ -275,9 +280,11 @@ input[type=date]:focus::-webkit-datetime-edit {
 
 /* Action */
 
-.section__title-offer{
-    text-align: end;
+.section__offer{
+    display: flex;
+    justify-content: start;
 }
+
 
 .offer{
     display: flex;
@@ -451,13 +458,19 @@ input[type=date]:focus::-webkit-datetime-edit {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0 32px 140px;
-    gap: 32px;
+    cursor: pointer;
+
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding: 37px 0 140px;
+    margin: 0 32px;
+    gap: 35px;
 }
 
 .gallery__img{
     transition: transform .1s linear;
 }
+
 
 .gallery__img:hover{
     transform: translate3d(0, -37px, 0);
