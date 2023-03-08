@@ -22,6 +22,7 @@ body{
 	line-height: 1.6;
 
     width: 100%;
+    max-width: 1440px;
    
 }
 
@@ -118,7 +119,6 @@ body{
     width: 80%;
     background: #FFFFFF;
     padding: 0px 0px 0 32px;
-    gap: 100px;
 }
 
 .hero__reserve{
@@ -452,6 +452,84 @@ input[type=date]:focus::-webkit-datetime-edit {
     color: #FF7757;
 }
 
+/* Trip */
+.section__text-trip{
+    max-width: 60%;
+}
+
+.planners{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 32px 140px;
+    margin: 0 auto;
+    gap: 60px;
+
+}
+
+.planners__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.planners__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px 0px;
+    gap: 12px;
+
+    width: 300px;
+    height: 146px;
+}
+
+.planners__price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 300px;
+    height: 21px;
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #172432;
+}
+
+.planners__city{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 37px;
+
+    color: #172432;
+}
+
+.planners__rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 300px;
+    height: 24px;
+}
+
+.planners__date{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #172432;
+}
+
 /* Gallery */
 
 .gallery__item{
@@ -544,7 +622,7 @@ input[type=date]:focus::-webkit-datetime-edit {
 
     position: absolute;
     left: 45px;
-    top: 6785px;
+    top: 7950px;
 
     background: #FFFFFF;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
