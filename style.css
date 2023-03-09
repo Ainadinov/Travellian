@@ -16,10 +16,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 body{
 	font-family: 'Playfair Display', serif;
-	font-size: 15px;
+	font-size: 24px;
     font-style: normal;
     font-weight: 400;
-	line-height: 1.6;
+	line-height: 28.44px;
 
     width: 100%;
     max-width: 1440px;
@@ -125,7 +125,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0 100px 0 32px;
+    padding: 72px 100px 72px 32px;
 
     background: #FFFFFF;
     gap: 40px;
@@ -621,7 +621,7 @@ input[type=date]:focus::-webkit-datetime-edit {
     gap: 100px;
 
     position: absolute;
-    left: 45px;
+    left: 0px;
     top: 7950px;
 
     background: #FFFFFF;
@@ -648,15 +648,15 @@ input[type=date]:focus::-webkit-datetime-edit {
 
 .newsletter__icons {
     position: absolute;
-    right: 185px;
-    top: 30%;
+    right: 225px;
+    top: 26%;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     border: 2px solid #e74c3c;
     border-radius: 50%;
     line-height: 25px;
@@ -779,4 +779,228 @@ input[type=date]:focus::-webkit-datetime-edit {
 
 .footer__social a{
     color: #FFFFFF;
+}
+
+@media (max-width: 1152px){
+    body{   
+        width: 100%;
+        max-width: 1152px;
+        
+    }
+    
+    /* Header */
+    .header{
+        background-image: url('image/header/BG.png');
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .hero{
+        padding-bottom: 150px;
+    }
+    
+    .hero__title{
+        padding: 72px 0 140px 32px;
+    }
+    
+    .hero__h1{
+        font-size: 64px;
+        line-height: 85px;
+
+        width: 75%;
+    }
+    
+    .hero__reserve{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 52px 100px 52px 32px;
+    
+        background: #FFFFFF;
+        gap: 40px;
+    }
+    
+  
+    .reserve__input{
+        font-size: 16px;
+        line-height: 21px;
+       
+        width: 158.5px;
+        height: 31px;
+    }
+
+    .hero__booknow{    
+        padding: 40px 20px;
+        gap: 12px;  
+    
+    }
+    
+    /* Destinations */
+    .section{
+        padding: 100px 32px 100px;
+    }
+
+    .destinations__content{
+        padding: 0 32px 100px 0;
+        margin-left: 32px;
+        margin-right: 32px;
+        gap: 35px;
+    }
+
+
+    /* Action */
+
+    .offer{
+        padding: 0 32px 100px;
+    }
+
+    .offer__blog{
+        width: 341.33px;
+        height: 623px;        
+    }
+
+    .offer__img{
+        width: 341.33px;
+        height: 286px;
+    }
+    .offer__textblog{
+        padding: 20px 24px;
+        gap: 24px;
+        
+        width: 341.33px;
+        height: 337px;
+    }
+
+    .offer__details{
+        width: 293.33px;
+        height: 56px;        
+    }
+
+    .offer__pr{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+    }
+
+    .offer__from{
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .offer__price{
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .offer__btn{
+        padding: 16px 24px;
+        gap: 4px;
+    }
+
+
+    /* Travel */
+
+    .travel{
+        padding: 0 32px 100px;
+    }
+
+    .travel__img{
+        width: 528px;
+        height: 686px;
+    }
+
+    .travel__title{
+        width: 70%;
+    }
+
+    .travel__text{
+        font-size: 18px;
+        line-height: 42px;
+    }
+
+    /* Trip */
+    .section__text-trip{
+        max-width: 80%;
+    }
+
+    .planners{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 32px 100px;
+        margin: 0 auto;
+        gap: 95px;
+
+    }
+
+    /* Gallery */
+
+    .gallery__item{
+        padding: 37px 0 100px;
+        margin: 0 32px;
+        gap: 32px;
+    }
+
+    /* Experiences */
+    
+    .client__items{
+        padding: 50px 30px 30px;
+        gap: 15px;
+
+        width: 562px;
+        height: 390px;
+    }
+
+    /* Newsletter */
+
+    .newsletter{
+        padding: 60px 40px;
+        margin: 0 36px;
+        gap: 60px;
+        width: 1080px;
+
+        position: absolute;
+        left: 0;
+        top: 7755px;
+    }
+
+    .newsletter__title{
+        font-size: 54px;
+        line-height: 72px;
+    }
+
+    .newsletter__frame{
+        position: relative;
+
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        padding: 0px;
+        gap: 32px;
+    }
+
+    .newsletter__icons {
+        position: absolute;
+        right: 225px;
+        top: 26%;
+
+        height: 30px;
+        width: 30px;
+    }
+
+    .newsletter__email{
+        padding: 16px 40px;
+
+        border: 2px solid #FFE8D4;
+        background: #FFE8D4;
+    }
+
+    /* Footer */
+
+    .footer__logo{
+        gap: 0;
+    }
 }
