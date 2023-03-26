@@ -18,6 +18,7 @@
                     <img class="menu__vektor" src="image/header/Vector.png" alt="#">
                     <img class="menu__travellian" src="image/header/Travellian.png" alt="">                 
                 </div>
+                <input type='checkbox' id='check' />
                 <div class="menu__item">
                     <a class="menu__link" href="#home">Home</a>
                     <a class="menu__link" href="#explore">Explore</a>
@@ -28,7 +29,9 @@
                 <div class="menu__sign">
                     <button class="menu__btn">Login</button>
                     <button class="menu__btn">Sign up</button>
+                    <label for="check" class="close__menu"><i class="fas fa-times"></i></label>
                 </div>
+                <label for="check" class="open__menu"><i class="fas fa-bars"></i></label>
             </div>
             <div class="hero">
                 <div class="hero__title">
@@ -339,7 +342,7 @@
         <div class="gallery">
 
             <div class="section">            
-                <div class="section__title ">
+                <div class="section__title section__title-gallery">
                     <h3 class="section__h3">Destination Gallery</h3>
                     <div class="section__text">Our photo gallery on trip</div>
                 </div>
@@ -425,20 +428,22 @@
 
             </div>
 
+            <div class="newsletter">
+                <h2 class="newsletter__title">Our Newsletter</h2>
+                <form id="form__email" action="post" class="newsletter__frame">
+                    <div class="newsletter__icons">
+                        <span class="fas fa-exclamation"></span>
+                    </div>
+                    <input  type="email" placeholder="Enter your email" class="newsletter__email">
+                    <div class="newsletter__btn">Subscribe</div>
+                </form>
+            </div>
+            <!-- Newsletter -->
+            
         </div>
         <!--Experiences -->
 
-        <div class="newsletter">
-            <h2 class="newsletter__title">Our Newsletter</h2>
-            <form id="form__email" action="post" class="newsletter__frame">
-                <div class="newsletter__icons">
-                    <span class="fas fa-exclamation"></span>
-                </div>
-                <input  type="email" placeholder="Enter your email" class="newsletter__email">
-                <div class="newsletter__btn">Subscribe</div>
-            </form>
-        </div>
-        <!-- Newsletter -->
+
 
         <footer class="footer">
             
